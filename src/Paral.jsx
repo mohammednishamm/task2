@@ -2,20 +2,20 @@ import React, { useRef, useState } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './paralallax.css'
 
-import save from './Assets/save.jpg'
-import earth from './Assets/earth.jpg'
-import dont from './Assets/dont.jpg'
-import fire from './Assets/fire.jpg'
-import solution from './Assets/solution.jpg'
-import next from './Assets/next.png'
-import previous from './Assets/previous.png'
+import save from './assets/save.jpg'
+// import earth from './assets/earth.jpg'
+// import dont from './Assets/dont.jpg'
+// import fire from './Assets/fire.jpg'
+import solution from './assets/solution.jpg'
+import next from './assets/next.png'
+import previous from './assets/previous.png'
 
 
 // Little helpers ...
 const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`;
 
-export default function Paralallax() {
+export default function Paral() {
     const parallax = useRef(null);
     const [currentPage, setCurrentPage] = useState(0);
   

@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Paralallax from './Component/Paralallax';
+import Paral from './Paral';
 
 function App() {
   return (
     <div className="App">
-      <Paralallax/>
+      <Paral/>
     </div>
   );
 }
